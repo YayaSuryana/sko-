@@ -1,0 +1,4 @@
+{
+    "bladeFormatter.format.wrapLineLength": 200,
+    "bladeFormatter.format.indentSize": 2
+}

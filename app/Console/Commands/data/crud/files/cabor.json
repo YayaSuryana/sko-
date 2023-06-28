@@ -1,0 +1,20 @@
+{
+    "title": "Cabor",
+    "icon": "fa-solid fa-grid-2-plus",
+    "model": "Cabor",
+    "columns": [
+        { "type": "ai" },
+        {
+            "name": "nama",
+            "type": "varchar",
+            "length": "100",
+            "label": "Cabor",
+            "form": { "type": "inputtext", "required": 2 },
+            "validations": { "store": ["required"], "update": ["required"] },
+            "nullable": false,
+            "unique": false,
+            "foreign": null
+        },
+        { "type": "timestamps" }
+    ]
+}

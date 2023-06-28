@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Event",
+        "roles": ["superadmin", "admin"],
+        "group": "Event"
+    },
+    {
+        "name": "Event Tambah",
+        "roles": ["superadmin", "admin"],
+        "group": "Event"
+    },
+    {
+        "name": "Event Impor Excel",
+        "roles": ["superadmin", "admin"],
+        "group": "Event"
+    },
+    {
+        "name": "Event Ubah",
+        "roles": ["superadmin", "admin"],
+        "group": "Event"
+    },
+    {
+        "name": "Event Hapus",
+        "roles": ["superadmin", "admin"],
+        "group": "Event"
+    },
+    {
+        "name": "Event Ekspor",
+        "roles": ["superadmin", "admin"],
+        "group": "Event"
+    }
+]

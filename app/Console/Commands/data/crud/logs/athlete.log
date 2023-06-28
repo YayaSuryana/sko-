@@ -1,0 +1,18 @@
+Created migration file => /Users/mac/Documents/Develop/ppln/database/migrations/2023_04_11_092154_create_athlete_table.php
+Created seeder file => /Users/mac/Documents/Develop/ppln/database/seeders/AthleteSeeder.php
+Created model file => /Users/mac/Documents/Develop/ppln/app/Models/Athlete.php
+Created controller file => /Users/mac/Documents/Develop/ppln/app/Http/Controllers/AthleteController.php
+Created api controller file => /Users/mac/Documents/Develop/ppln/app/Http/Controllers/Api/AthleteController.php
+Created repository file => /Users/mac/Documents/Develop/ppln/app/Repositories/AthleteRepository.php
+Created request file => /Users/mac/Documents/Develop/ppln/app/Http/Requests/AthleteRequest.php
+Created api request file => /Users/mac/Documents/Develop/ppln/app/Http/Requests/Api/AthleteRequest.php
+Created export excel file => /Users/mac/Documents/Develop/ppln/app/Exports/AthleteExport.php
+Created import excel file => /Users/mac/Documents/Develop/ppln/app/Imports/AthleteImport.php
+Created view index file => /Users/mac/Documents/Develop/ppln/resources/views/stisla/athletes/index.blade.php
+Created view form file => /Users/mac/Documents/Develop/ppln/resources/views/stisla/athletes/form.blade.php
+Created view export pdf file => /Users/mac/Documents/Develop/ppln/resources/views/stisla/athletes/export-pdf.blade.php
+Created view export excel example file => /Users/mac/Documents/Develop/ppln/resources/views/stisla/athletes/export-excel-example.blade.php
+Created permission file => /Users/mac/Documents/Develop/ppln/database/seeders/data/permission-modules/athletes.json
+Created routing file => /Users/mac/Documents/Develop/ppln/routes/modules/athlete.php
+Created menu setting file => /Users/mac/Documents/Develop/ppln/database/seeders/data/menu-modules/athletes.json
+Created 17 files

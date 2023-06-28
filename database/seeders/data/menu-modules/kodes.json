@@ -1,0 +1,12 @@
+{
+    "group_name": "Navigasi",
+    "menus": [
+        {
+            "menu_name": "Kode",
+            "route_name": "kodes.index",
+            "icon": "fa-solid fa-tag",
+            "permission": "Kode",
+            "is_active_if_url_includes": "kodes*"
+        }
+    ]
+}

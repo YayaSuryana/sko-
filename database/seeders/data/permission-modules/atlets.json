@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Atlet",
+        "roles": ["superadmin", "admin"],
+        "group": "Atlet"
+    },
+    {
+        "name": "Atlet Tambah",
+        "roles": ["superadmin", "admin"],
+        "group": "Atlet"
+    },
+    {
+        "name": "Atlet Impor Excel",
+        "roles": ["superadmin", "admin"],
+        "group": "Atlet"
+    },
+    {
+        "name": "Atlet Ubah",
+        "roles": ["superadmin", "admin"],
+        "group": "Atlet"
+    },
+    {
+        "name": "Atlet Hapus",
+        "roles": ["superadmin", "admin"],
+        "group": "Atlet"
+    },
+    {
+        "name": "Atlet Ekspor",
+        "roles": ["superadmin", "admin"],
+        "group": "Atlet"
+    }
+]

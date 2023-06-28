@@ -1,0 +1,217 @@
+{
+    "title": "Profileatlet",
+    "icon": "fa-solid fa-person-running",
+    "model": "Profileatlet",
+    "columns": [
+        { "type": "ai" },
+        {
+            "name": "nama",
+            "type": "varchar",
+            "length": "20",
+            "label": "nama",
+            "form": { "type": "inputtext", "required": 2 },
+            "validations": { "store": ["required"], "update": ["required"] },
+            "nullable": false,
+            "unique": false,
+            "foreign": null
+        },
+        {
+            "name": "no_kk",
+            "type": "varchar",
+            "length": "20",
+            "label": "Nomor KK",
+            "form": { "type": "inputtext", "required": 2 },
+            "validations": { "store": ["required"], "update": ["required"] },
+            "nullable": false,
+            "unique": false,
+            "foreign": null
+        },
+        {
+            "name": "nisn",
+            "type": "varchar",
+            "length": "23",
+            "label": "NISN",
+            "form": { "type": "inputtext", "required": 2 },
+            "validations": { "store": ["required"], "update": ["required"] },
+            "nullable": false,
+            "unique": false,
+            "foreign": null
+        },
+        {
+            "name": "alamat_domisili",
+            "type": "text",
+            "label": "Alamat Domisili",
+            "form": { "type": "textarea", "required": 2 },
+            "validations": { "store": ["required"], "update": ["required"] },
+            "nullable": false,
+            "unique": false,
+            "foreign": null
+        },
+        {
+            "name": "kelas",
+            "type": "varchar",
+            "length": "10",
+            "label": "Kelas",
+            "form": { "type": "inputtext", "required": 2 },
+            "validations": { "store": ["required"], "update": ["required"] },
+            "nullable": false,
+            "unique": false,
+            "foreign": null
+        },
+        {
+            "name": "tempat_lahir",
+            "type": "varchar",
+            "length": "200",
+            "label": "Tempat Lahir",
+            "form": { "type": "inputtext", "required": 2 },
+            "validations": { "store": ["required"], "update": ["required"] },
+            "nullable": false,
+            "unique": false,
+            "foreign": null
+        },
+        {
+            "name": "tanggal_lahir",
+            "type": "varchar",
+            "length": 191,
+            "label": "Tanggal_lahir",
+            "form": { "type": "inputdate", "required": 2 },
+            "validations": { "store": ["required"], "update": ["required"] },
+            "nullable": false,
+            "unique": false,
+            "foreign": null
+        },
+        {
+            "name": "gol_darah",
+            "type": "varchar",
+            "length": "3",
+            "label": "Golongan Darah",
+            "form": { "type": "select", "required": 2 },
+            "validations": { "store": ["required"], "update": ["required"] },
+            "nullable": false,
+            "unique": false,
+            "foreign": null
+        },
+        {
+            "name": "jenis_kelamin",
+            "type": "varchar",
+            "length": "10",
+            "label": "Jenis Kelamin",
+            "form": { "type": "select", "required": 2 },
+            "validations": { "store": ["required"], "update": ["required"] },
+            "nullable": false,
+            "unique": false,
+            "foreign": null
+        },
+        {
+            "name": "cabor",
+            "type": "varchar",
+            "length": "200",
+            "label": "Cabor",
+            "form": { "type": "select2", "required": 2 },
+            "validations": { "store": ["required"], "update": ["required"] },
+            "nullable": false,
+            "unique": false,
+            "foreign": null
+        },
+        {
+            "name": "nomor_cabor1",
+            "type": "varchar",
+            "length": "200",
+            "label": "Nomor Cabor 1",
+            "form": { "type": "inputtext", "required": 2 },
+            "validations": { "store": ["required"], "update": ["required"] },
+            "nullable": false,
+            "unique": false,
+            "foreign": null
+        },
+        {
+            "name": "nomor_cabor2",
+            "type": "varchar",
+            "length": "200",
+            "label": "Nomor Cabor 2",
+            "form": { "type": "inputtext", "required": 2 },
+            "validations": { "store": ["required"], "update": ["required"] },
+            "nullable": false,
+            "unique": false,
+            "foreign": null
+        },
+        {
+            "name": "nomor_cabor3",
+            "type": "varchar",
+            "length": "200",
+            "label": "Nomor Cabor 3",
+            "form": { "type": "inputtext", "required": 2 },
+            "validations": { "store": ["required"], "update": ["required"] },
+            "nullable": false,
+            "unique": false,
+            "foreign": null
+        },
+        {
+            "name": "nomor_cabor4",
+            "type": "varchar",
+            "length": "200",
+            "label": "Nomor Cabor 4",
+            "form": { "type": "inputtext", "required": 2 },
+            "validations": { "store": ["required"], "update": ["required"] },
+            "nullable": false,
+            "unique": false,
+            "foreign": null
+        },
+        {
+            "name": "tinggi_badan",
+            "type": "varchar",
+            "length": "20",
+            "label": "Tinggi Badan",
+            "form": { "type": "inputnumber", "required": 2 },
+            "validations": { "store": ["required"], "update": ["required"] },
+            "nullable": false,
+            "unique": false,
+            "foreign": null
+        },
+        {
+            "name": "berat_badan",
+            "type": "varchar",
+            "length": "3",
+            "label": "Berat Badan",
+            "form": { "type": "inputnumber", "required": 2 },
+            "validations": { "store": ["required"], "update": ["required"] },
+            "nullable": false,
+            "unique": false,
+            "foreign": null
+        },
+        {
+            "name": "provinsi",
+            "type": "varchar",
+            "length": "200",
+            "label": "Provinsi",
+            "form": { "type": "inputtext", "required": 2 },
+            "validations": { "store": ["required"], "update": ["required"] },
+            "nullable": false,
+            "unique": false,
+            "foreign": null
+        },
+        {
+            "name": "asal_pembinaan",
+            "type": "varchar",
+            "length": "50",
+            "label": null,
+            "form": { "type": "inputtext", "required": 2 },
+            "validations": { "store": ["required"], "update": ["required"] },
+            "nullable": false,
+            "unique": false,
+            "foreign": null
+        },
+        {
+            "name": "foto",
+            "type": "varchar",
+            "length": "225",
+            "label": "Foto",
+            "form": { "type": "inputtext", "required": 2 },
+            "validations": { "store": ["required", "file", "image", "mimes:png,jpeg,jpg"], "update": ["file", "image", "mimes:png,jpeg,jpg"] },
+            "nullable": false,
+            "unique": false,
+            "foreign": null
+        },
+        { "type": "timestamps" }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "title": "MasterEvent",
+    "icon": "fa-solid fa-award",
+    "model": "Masterevent",
+    "columns": [
+        { "type": "ai" },
+        {
+            "name": "nama",
+            "type": "varchar",
+            "length": "200",
+            "label": "Nama Master Event",
+            "form": { "type": "inputtext", "required": 2 },
+            "validations": { "store": ["required"], "update": ["required"] },
+            "nullable": false,
+            "unique": false,
+            "foreign": null
+        },
+        { "type": "timestamps" }
+    ]
+}

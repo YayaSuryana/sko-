@@ -1,0 +1,12 @@
+{
+    "group_name": "Navigasi",
+    "menus": [
+        {
+            "menu_name": "Atlet",
+            "route_name": "atlets.index",
+            "icon": "fa-solid fa-person",
+            "permission": "Atlet",
+            "is_active_if_url_includes": "atlets*"
+        }
+    ]
+}

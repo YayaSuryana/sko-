@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Prestasi",
+        "roles": ["superadmin", "admin"],
+        "group": "Prestasi"
+    },
+    {
+        "name": "Prestasi Tambah",
+        "roles": ["superadmin", "admin"],
+        "group": "Prestasi"
+    },
+    {
+        "name": "Prestasi Impor Excel",
+        "roles": ["superadmin", "admin"],
+        "group": "Prestasi"
+    },
+    {
+        "name": "Prestasi Ubah",
+        "roles": ["superadmin", "admin"],
+        "group": "Prestasi"
+    },
+    {
+        "name": "Prestasi Hapus",
+        "roles": ["superadmin", "admin"],
+        "group": "Prestasi"
+    },
+    {
+        "name": "Prestasi Ekspor",
+        "roles": ["superadmin", "admin"],
+        "group": "Prestasi"
+    }
+]

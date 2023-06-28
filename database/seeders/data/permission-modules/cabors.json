@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Cabor",
+        "roles": ["superadmin", "admin"],
+        "group": "Cabor"
+    },
+    {
+        "name": "Cabor Tambah",
+        "roles": ["superadmin", "admin"],
+        "group": "Cabor"
+    },
+    {
+        "name": "Cabor Impor Excel",
+        "roles": ["superadmin", "admin"],
+        "group": "Cabor"
+    },
+    {
+        "name": "Cabor Ubah",
+        "roles": ["superadmin", "admin"],
+        "group": "Cabor"
+    },
+    {
+        "name": "Cabor Hapus",
+        "roles": ["superadmin", "admin"],
+        "group": "Cabor"
+    },
+    {
+        "name": "Cabor Ekspor",
+        "roles": ["superadmin", "admin"],
+        "group": "Atlet"
+    }
+]

@@ -1,0 +1,12 @@
+{
+    "group_name": "Navigasi",
+    "menus": [
+        {
+            "menu_name": "Athlete",
+            "route_name": "athletes.index",
+            "icon": "fa-solid fa-person-running",
+            "permission": "Athlete",
+            "is_active_if_url_includes": "athletes*"
+        }
+    ]
+}

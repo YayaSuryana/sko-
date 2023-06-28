@@ -1,0 +1,86 @@
+{
+    "title": "Athlete",
+    "icon": "fa-solid fa-person-running",
+    "model": "Athlete",
+    "columns": [
+        { "type": "ai" },
+        {
+            "name": "tempat",
+            "type": "varchar",
+            "length": "60",
+            "label": "Tempat",
+            "form": { "type": "inputtext", "required": 2 },
+            "validations": { "store": ["required"], "update": ["required"] },
+            "nullable": false,
+            "unique": false,
+            "foreign": null
+        },
+        {
+            "name": "tanggal",
+            "type": "varchar",
+            "length": "50",
+            "label": "Tanggal",
+            "form": { "type": "inputdate", "required": 2 },
+            "validations": { "store": ["required"], "update": ["required"] },
+            "nullable": false,
+            "unique": false,
+            "foreign": null
+        },
+        {
+            "name": "nisn",
+            "type": "varchar",
+            "length": "30",
+            "label": "NISN",
+            "form": { "type": "inputtext", "required": 2 },
+            "validations": { "store": ["required"], "update": ["required"] },
+            "nullable": false,
+            "unique": false,
+            "foreign": null
+        },
+        {
+            "name": "tingkatPendidikan",
+            "type": "varchar",
+            "length": "100",
+            "label": "Tingkat Pendidikan",
+            "form": { "type": "inputtext", "required": 2 },
+            "validations": { "store": ["required"], "update": ["required"] },
+            "nullable": false,
+            "unique": false,
+            "foreign": null
+        },
+        {
+            "name": "domisili",
+            "type": "varchar",
+            "length": "200",
+            "label": "Alamat Domisili",
+            "form": { "type": "textarea", "required": 2 },
+            "validations": { "store": ["required"], "update": ["required"] },
+            "nullable": false,
+            "unique": false,
+            "foreign": null
+        },
+        {
+            "name": "cabor",
+            "type": "varchar",
+            "length": "100",
+            "label": "Cabang Olahraga",
+            "form": { "type": "select2", "required": 2 },
+            "validations": { "store": ["required"], "update": ["required"] },
+            "nullable": false,
+            "unique": false,
+            "foreign": null
+        },
+        {
+            "name": "nomorCabor",
+            "type": "varchar",
+            "length": "200",
+            "label": "Nomor Cabor",
+            "form": { "type": "select2", "required": 2 },
+            "validations": { "store": ["required"], "update": ["required"] },
+            "nullable": false,
+            "unique": false,
+            "foreign": null
+        },
+        { "type": "timestamps" }
+    ]
+}

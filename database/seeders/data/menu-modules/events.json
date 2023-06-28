@@ -1,0 +1,12 @@
+{
+    "group_name": "Navigasi",
+    "menus": [
+        {
+            "menu_name": "Event",
+            "route_name": "events.index",
+            "icon": "fa-solid fa-trophy",
+            "permission": "Event",
+            "is_active_if_url_includes": "events*"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+[
+    {
+        "name": "MasterEvent",
+        "roles": ["superadmin", "admin"],
+        "group": "MasterEvent"
+    },
+    {
+        "name": "MasterEvent Tambah",
+        "roles": ["superadmin", "admin"],
+        "group": "MasterEvent"
+    },
+    {
+        "name": "MasterEvent Impor Excel",
+        "roles": ["superadmin", "admin"],
+        "group": "MasterEvent"
+    },
+    {
+        "name": "MasterEvent Ubah",
+        "roles": ["superadmin", "admin"],
+        "group": "MasterEvent"
+    },
+    {
+        "name": "MasterEvent Hapus",
+        "roles": ["superadmin", "admin"],
+        "group": "MasterEvent"
+    },
+    {
+        "name": "MasterEvent Ekspor",
+        "roles": ["superadmin", "admin"],
+        "group": "MasterEvent"
+    }
+]

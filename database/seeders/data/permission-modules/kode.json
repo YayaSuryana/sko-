@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Kode",
+        "roles": ["superadmin", "admin"],
+        "group": "Kode"
+    },
+    {
+        "name": "Kode Tambah",
+        "roles": ["superadmin", "admin"],
+        "group": "Kode"
+    },
+    {
+        "name": "Kode Impor Excel",
+        "roles": ["superadmin", "admin"],
+        "group": "Kode"
+    },
+    {
+        "name": "Kode Ubah",
+        "roles": ["superadmin", "admin"],
+        "group": "Kode"
+    },
+    {
+        "name": "Kode Hapus",
+        "roles": ["superadmin", "admin"],
+        "group": "Kode"
+    },
+    {
+        "name": "Kode Ekspor",
+        "roles": ["superadmin", "admin"],
+        "group": "Kode"
+    }
+]

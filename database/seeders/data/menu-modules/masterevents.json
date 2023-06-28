@@ -1,0 +1,12 @@
+{
+    "group_name": "Navigasi",
+    "menus": [
+        {
+            "menu_name": "MasterEvent",
+            "route_name": "masterevents.index",
+            "icon": "fa-solid fa-award",
+            "permission": "MasterEvent",
+            "is_active_if_url_includes": "masterevents*"
+        }
+    ]
+}

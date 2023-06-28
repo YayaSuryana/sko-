@@ -1,0 +1,12 @@
+{
+    "group_name": "Navigasi",
+    "menus": [
+        {
+            "menu_name": "Cabor",
+            "route_name": "cabors.index",
+            "icon": "fa-solid fa-grid-2-plus",
+            "permission": "Cabor",
+            "is_active_if_url_includes": "cabors*"
+        }
+    ]
+}
